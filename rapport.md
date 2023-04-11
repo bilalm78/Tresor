@@ -323,7 +323,9 @@ cat indices/21683/indice
 Note:
 
 git config --global user.name "bilalm78"
+
 git config --global user.email "mennitibilal8@gmail.com"
+
 git config --global core.editor "code --wait"
 
 Ces commandes permettent de  configurer le nom d'utilisateur, l'adresse e-mail et l'éditeur de code pour Git.
@@ -341,3 +343,49 @@ git commit -m "ajout de l'indice 2 fixes #1"
 Enfin, pour envoyer nos modifications sur notre dépôt distant, on utilise la commande git push.
 
 on réitère ceci avec tous les autres indices.
+
+git add indice3
+git commit -m "ajout de l'indice 3 fixes #2"
+git push
+
+git add indice4
+git commit -m "ajout de l'indice 4 fixes #3"
+git push
+
+git add indice5
+git commit -m "ajout de l'indice 5 fixes #4"
+git push
+
+git add indice6
+git commit -m "ajout de l'indice 6 fixes #5"
+git push
+
+git add indice7
+git commit -m "ajout de l'indice 7 fixes #6"
+git push
+
+git add indice8
+git commit -m "ajout de l'indice 8 fixes #7"
+git push
+
+git add indice9
+git commit -m "ajout de l'indice 9 fixes #8"
+git push
+
+git add indice10
+git commit -m "ajout de l'indice 10 fixes #9"
+git push
+
+git add indice11
+git commit -m "ajout de l'indice 11 fixes #10"
+git push
+
+git add indice12
+git commit -m "ajout de l'indice 12 fixes #11"
+git push
+
+git add indice13
+git commit -m "ajout de l'indice 13 fixes #12"
+git push
+
+
