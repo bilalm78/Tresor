@@ -1,17 +1,15 @@
-name: concaténation des fichiers indices 
+name: Generate indices
+
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+
 jobs:
-  build:
+  generate_indices:
     runs-on: ubuntu-latest
-    name: Construire et tester
     steps:
-    - uses: actions/checkout@v2
-      name: Recupérer les fichiers du dépôt
-    - name: Installe Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - run: python classifier.py
-      name: Exécuter mon script python
+      - uses: actions/checkout@v2
+      - name: Generate indices
+        run: |
+          cat indice* > indices.md
+          zip -r indices.zip indice*
