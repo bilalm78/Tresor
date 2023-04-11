@@ -1,7 +1,9 @@
 # Rapport de résolution du jeu de piste Tresor
 
 Menniti Bilal
+
 https://github.com/bilalm78/Tresor.git
+
 git@github.com:bilalm78/Tresor.git
 
 ## Introduction
@@ -41,6 +43,18 @@ cp indices/12345/indice indices-sauvegardes/indice2
 
 Nous avons enfin affiché l'indice en utilisant la commande :
 cat indices/12345/indice
+
+
+Note:
+Pour ajouté le fichier à notre suivi Git, on le valide avec un message de commit, qui inclut l'indice de l'issue associée au changement.
+
+git add indice2
+
+Pour fermer correctement l'issue associée à l'indice 2, on utilise la commande suivante :
+
+git commit -m "ajout de l'indice 2 fixes #1"       ***#1 correspond a l'issue associé a l'indice2***
+
+Enfin, pour envoyer nos modifications sur notre dépôt distant, on utilise la commande git push.
 
 
 #### Trouver l'indice 3 ####
