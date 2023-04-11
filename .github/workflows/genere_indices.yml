@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Generate indices
+      - name: Genere indices
         run: |
           cat indice* > indices.md
           zip -r indices.zip indice*
