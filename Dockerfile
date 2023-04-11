@@ -2,7 +2,7 @@ Dockerfile
 
 FROM pandoc/core:latest
 
-WORKDIR /app
+WORKDIR Tresor/indices/
 
 COPY . .
 
