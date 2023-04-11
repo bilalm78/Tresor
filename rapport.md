@@ -141,7 +141,7 @@ On obtient le répertoire:
 
 /comptes/m/mb905518/.opam/4.07.0/bin:/users/etudiant/m/mb905518/bin:/users/etudiant/m/mb905518/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin/X11:.
 
-Le dernier chemin listé dans notre `PATH` correspond à ***.***, 
+Le dernier chemin listé dans notre `PATH` correspond à ".", 
 
 
 Nous avons ensuite exécuté la commande suivante pour trouver l'indice 7 :
