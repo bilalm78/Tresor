@@ -4,6 +4,6 @@ FROM pandoc/core:latest
 
 WORKDIR Tresor/indices/
 
-COPY . .
+COPY . Tresor/indices/
 
 CMD ["sh", "-c", "pandoc -s -o output.pdf *.md"]
