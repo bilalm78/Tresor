@@ -8,4 +8,4 @@ COPY . /Tresor/indices/
 
 RUN apt-get update && apt-get install -y pandoc
 
-CMD ["sh", "-c", "pandoc -s -o output.pdf *.md"]
+CMD ["sh", "-c", "pandoc -s -o indices.pdf *.md"]
