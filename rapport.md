@@ -224,7 +224,7 @@ ls /usr/share/dict/
 
 Ensuite, en utilisant la commande wc avec le paramètre -w, nous pouvons trouver le nombre de mots dans le dictionnaire /usr/share/dict/words :
 
-wc -w ~/usr/share/dict/words
+wc -w /usr/share/dict/words
 
 Cette commande retourne le nombre de mots dans le dictionnaire, qui est 102401.
 
@@ -244,7 +244,7 @@ cat indices/17285/indice
 
 Pour trouver l'indice 11, on doit trouver le mot qui apparaît avant "tomcat" dans le fichier /usr/share/dict/words. Pour ce faire, nous pouvons utiliser la commande grep avec l'option -B 1, qui permet de récupérer le mot précédent :
 
-grep -B 1 tomcat ~/usr/share/dict/words
+grep -B 1 tomcat /usr/share/dict/words
 
 et on obtient:
 tombstones
