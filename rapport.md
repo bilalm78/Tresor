@@ -32,7 +32,7 @@ Pour trouver l'indice 2, nous avons exécuté la commande suivante :
 cd tresor_shell 
 ./generer_probleme.py 25639
 
-Cela a permis de rajouter les repertoires suivants : secret.log et indices. D'après l'indice 1, l'indice 2 se trouvait dans le répertoire tresor_shell/indices/12345. Nous avons donc exécuté la commande suivante pour accéder à cet indice :
+Cela a permis de rajouter les repertoires/fichiers suivants : secret.log et indices. D'après l'indice 1, l'indice 2 se trouvait dans le répertoire tresor_shell/indices/12345. Nous avons donc exécuté la commande suivante pour accéder à cet indice :
 
 cd indices/12345
 
