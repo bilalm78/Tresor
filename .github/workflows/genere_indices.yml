@@ -1,4 +1,4 @@
-name: Genere indices
+name: Generer indices
 
 on:
   push:
@@ -8,6 +8,7 @@ jobs:
   genere_indices:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
       - uses: actions/checkout@v2
       - name: Create indices.md
         run: |
@@ -15,5 +16,5 @@ jobs:
           echo " tous les indices sont combiner dans indices.md"
       - name: Create indices.zip
         run: |
-          zip indices.zip indice*.md
+          zip -r indices.zip indice*.md
           echo " tous les indices sont combiner dans indices.zip"
