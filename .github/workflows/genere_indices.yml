@@ -1,1 +1,15 @@
+name: Genere indices
 
+on:
+  push:
+    branches: [main]
+
+jobs:
+  genere_indices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate indices
+        run: |
+          cat indice* > indices.md
+          zip -r indices.zip indice*
