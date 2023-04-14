@@ -1,5 +1,5 @@
 ### Indice 10 : recherche ###
-
+.md
 #### `grep` ####
 
 Chercher à l'intérieur de fichiers est aussi utile. Essayer
