@@ -13,13 +13,15 @@ CMD ["sh", "-c", "pandoc -s -o indices.pdf *.md"]
 
 
 
+
+
 FROM debian
 
-WORKDIR ~/tresor_shell/Tresor/indices
+WORKDIR /users/etudiant/m/mb905518/tresor_shell/Tresor
 
-COPY . ~/tresor_shell/Tresor/indices
+COPY . /users/etudiant/m/mb905518/tresor_shell/Tresor
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y pandoc
 
