@@ -2,7 +2,7 @@ FROM debian
 
 WORKDIR /users/etudiant/m/mb905518/tresor_shell/Tresor/indices/
 
-COPY . /users/etudiant/m/mb905518/tresor_shell/Tresor/indices/
+COPY . indices/
 
 RUN apt-get update && apt-get upgrade -y
 
