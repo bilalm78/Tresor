@@ -39,7 +39,8 @@ cd indices/12345
 Nous avons ensuite créé un répertoire indices-sauvegardes pour enregistrer les indices trouvés au fur et à mesure avec les commandes suivantes :
 
 mkdir indices-sauvegardes
-cp indices/12345/indice indices-sauvegardes/indice2
+
+cp indices/12345/indice indices-sauvegardes/indice02.md
 
 Nous avons enfin affiché l'indice en utilisant la commande :
 cat indices/12345/indice
@@ -47,7 +48,7 @@ cat indices/12345/indice
 
 ***Note:***
 ***Pour ajouté le fichier à notre suivi Git, on le valide avec un message de commit, qui inclut l'indice de l'issue associée au changement.***
-***git add indice2***
+***git add indice02.md***
 
 ***Pour fermer correctement l'issue associée à l'indice 2, on utilise la commande suivante :***
 ***git commit -m "ajout de l'indice 2 fixes #1"***       ***#1 correspond a l'issue associé a l'indice2***
@@ -77,7 +78,7 @@ Comme il y avait 12 sous-répertoires et que nous cherchions l'indice 3, nous av
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/63736. Nous avons donc enregistré cet indice avec la commande suivante :
 
-cp indices/63736/indice indices-sauvegardes/indice3
+cp indices/63736/indice indices-sauvegardes/indice03.md
 
 Nous avons enfin affiché l'indice en utilisant la commande :
 cat indices/63736/indice
@@ -91,7 +92,7 @@ Pour trouver l'indice 4, nous avons utilisé le nom de l'ordinateur comme indica
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/74222. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/74222/indice indices-sauvegardes/indice4
+cp indices/74222/indice indices-sauvegardes/indice04.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/74222/indice 
@@ -107,7 +108,7 @@ Nous avons trouvé que l'option qui empêche l'écrasement est -n. Nous avons do
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/12586. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/12586/indice indices-sauvegardes/indice5
+cp indices/12586/indice indices-sauvegardes/indice05.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/12586/indice                      
@@ -127,7 +128,7 @@ Ce qui nous a donné le code : 494549. Nous avons ensuite exécuté la commande 
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/41977. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/41977/indice indices-sauvegardes/indice6
+cp indices/41977/indice indices-sauvegardes/indice06.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/41977/indice
@@ -150,7 +151,7 @@ Nous avons ensuite exécuté la commande suivante pour trouver l'indice 7 :
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/45736. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/45736/indice indices-sauvegardes/indice7
+cp indices/45736/indice indices-sauvegardes/indice07.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/45736/indice
@@ -181,7 +182,7 @@ Les derniers mots de chaque phrase sont "écolier arbres neige nom", nous avons 
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/59443 . Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/59443/indice indices-sauvegardes/indice8
+cp indices/59443/indice indices-sauvegardes/indice08.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/59443/indice
@@ -210,7 +211,7 @@ Nous avons utilisé "impossible" comme indication pour trouver l'indice 9 :
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/28105 . Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/28105/indice indices-sauvegardes/indice9
+cp indices/28105/indice indices-sauvegardes/indice09.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/28105/indice
@@ -234,7 +235,7 @@ Nous avons ensuite exécuté la commande suivante pour trouver l'indice 10 :
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/17285. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/17285/indice indices-sauvegardes/indice10
+cp indices/17285/indice indices-sauvegardes/indice10.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/17285/indice 
@@ -261,7 +262,7 @@ Nous avons ensuite exécuté la commande suivante pour trouver l'indice 11 :
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/20800. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/20800/indice indices-sauvegardes/indice11
+cp indices/20800/indice indices-sauvegardes/indice11.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/20800/indice 
@@ -283,7 +284,7 @@ Nous avons ensuite exécuté la commande suivante pour trouver l'indice 12 :
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/41014. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/41014/indice indices-sauvegardes/indice12
+cp indices/41014/indice indices-sauvegardes/indice12.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/41014/indice
@@ -300,7 +301,7 @@ pour trouver tous les fichiers ayant une taille inférieure à 1452 octets, qui 
 
 Cela nous a renvoyé l'emplacement de notre prochain indice qui était indices/21683. Nous avons alors enregistré cet indice dans le dossier indices-sauvegardes en utilisant la commande suivante :
 
-cp indices/21683/indice indices-sauvegardes/indice13
+cp indices/21683/indice indices-sauvegardes/indice13.md
 
 Nous avons ensuite affiché le contenu de cet indice en utilisant la commande suivante :
 cat indices/21683/indice
@@ -344,7 +345,7 @@ Ces commandes permettent de  configurer le nom d'utilisateur, l'adresse e-mail e
 
 Une fois que la configuration est en place, on peut ajouter des fichiers à nos suivi Git à l'aide de la commande git add. 
 
-git add indice2
+git add indice02.md
 
 Après avoir ajouté le fichier à notre suivi Git, on le valide avec un message de commit, qui inclut l'indice de l'issue associée au changement. Pour fermer correctement l'issue associée à l'indice 2, on utilise la commande suivante :
 
@@ -356,67 +357,67 @@ Enfin, pour envoyer nos modifications sur notre dépôt distant, on utilise la c
 
 on réitère ceci avec tous les autres indices.
 
-git add indice3
+git add indice03.md
 
 git commit -m "ajout de l'indice 3 fixes #2"
 
 git push
 
-git add indice4
+git add indice04.md
 
 git commit -m "ajout de l'indice 4 fixes #3"
 
 git push
 
-git add indice5
+git add indice05.md
 
 git commit -m "ajout de l'indice 5 fixes #4"
 
 git push
 
-git add indice6
+git add indice06.md
 
 git commit -m "ajout de l'indice 6 fixes #5"
 
 git push
 
-git add indice7
+git add indice07.md
 
 git commit -m "ajout de l'indice 7 fixes #6"
 
 git push
 
-git add indice8
+git add indice08.md
 
 git commit -m "ajout de l'indice 8 fixes #7"
 
 git push
 
-git add indice9
+git add indice09.md
 
 git commit -m "ajout de l'indice 9 fixes #8"
 
 git push
 
-git add indice10
+git add indice10.md
 
 git commit -m "ajout de l'indice 10 fixes #9"
 
 git push
 
-git add indice11
+git add indice11.md
 
 git commit -m "ajout de l'indice 11 fixes #10"
 
 git push
 
-git add indice12
+git add indice12.md
 
 git commit -m "ajout de l'indice 12 fixes #11"
 
 git push
 
-git add indice13
+git add indice13.md
 
 git commit -m "ajout de l'indice 13 fixes #12"
 
