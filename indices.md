@@ -476,4 +476,3 @@ vrais indices sont différents des faux indices, trouver l'indice final !
                      |_____|        |_____|         ~ - . _ _ _ _ _>
 
 
-
