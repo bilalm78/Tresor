@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: generer indices.md
       run: |
-        cat $(ls -v ${GITHUB_WORKSPACE}/indices}/*.md) > ${GITHUB_WORKSPACE}/indices.md
+        cat $(ls -v ${GITHUB_WORKSPACE}/indices/*.md) > ${GITHUB_WORKSPACE}/indices.md
     - name: Push
       run: |   
         git config --global user.name "bilalm78"
