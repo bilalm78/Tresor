@@ -19,5 +19,5 @@ jobs:
         git config --global user.name "bilalm78"
         git config --global user.email "mennitibilal8@gmail.com"
         git add indices.md
-        git commit -m "Ajout du fichier contenant les indices #fixes15 "
+        git commit -m "Ajout du fichier contenant les indices fixes #15 "
         git push
