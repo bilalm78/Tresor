@@ -1,0 +1,26 @@
+name : creation  des indices zip
+
+on:
+  push:
+    branches:
+    - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: generer indices.md
+      run: |
+        apt-get update
+        apt-get install zip
+        zip -r indices.zip ${GITHUB_WORKSPACE}/indices/*.md
+        
+    - name: Push
+      run: |   
+        git config --global user.name "bilalm78"
+        git config --global user.email "mennitibilal8@gmail.com"
+        git add indices.md
+        git commit -m "Ajout des fichiers compresser  fixes #16 "
+        git push
