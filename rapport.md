@@ -15,7 +15,8 @@ Ce rapport décrit la manière de résoudre l'énigme qui consiste à trouver 12
 
 Prérequis:
 Nous avons commencé par cloner le dépôt Github contenant le jeu de piste à l'aide des commandes suivantes :
-git clone git@github.com:bilalm78/Tresor.git
+
+  git clone git@github.com:bilalm78/Tresor.git
 
 Nous avons ensuite téléchargé un fichier à l'aide de la commande suivante :
 sh <(wget -q https://www.i3s.unice.fr/master-info/assets/im/tresor-shell/getprojet.sh -O -)
